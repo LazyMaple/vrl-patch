@@ -1,0 +1,5 @@
+# result: [{ "ok": 1.0 }, null]
+.x = 1
+.ok, err = 1 / .x
+del(.x)
+[., err]

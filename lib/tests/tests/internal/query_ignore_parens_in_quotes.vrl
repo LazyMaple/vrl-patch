@@ -1,0 +1,9 @@
+# result: null
+
+_x = r'\).'
+_x = upcase(").")
+_x = upcase(s').')
+_x = replace("", r'\).', "")
+.foo."baz)"
+.foo."{foo}"
+.foo."[{bar}]"

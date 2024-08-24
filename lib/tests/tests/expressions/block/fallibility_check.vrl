@@ -1,0 +1,8 @@
+# see: https://github.com/vectordotdev/vector/issues/13527
+# result: {"a": {}}
+.a = "string"
+{
+  _x = to_string(.a)
+  .a = {}
+}
+.

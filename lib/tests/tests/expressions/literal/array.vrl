@@ -1,0 +1,24 @@
+# result: [true, 1, "bar"]
+
+# empty
+_arr = [ ]
+
+# single
+_arr = [true]
+_arr = [true,]
+
+# multiple
+_arr = [true, 1, "bar"]
+_arr = [true, 1, "bar",]
+
+_arr = [
+    true,
+    1,
+    "bar",
+]
+
+[
+    true,
+    1,
+    "bar"
+]

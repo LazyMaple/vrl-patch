@@ -1,0 +1,8 @@
+# object: { "foo": false, "bar": false, "baz": false }
+# result: { "foo": true, "bar": true, "baz": true }
+
+# Assignments as the rhs expression should be allowed
+_x = false || (.foo = true)
+_x = true  && (.bar = true)
+_x = 5 / 0 ?? (.baz = true)
+.

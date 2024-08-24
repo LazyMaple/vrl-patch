@@ -1,0 +1,12 @@
+# object: { "foo": false, "bar": false, "baz": false }
+# result: { "foo": false, "bar": false, "baz": false }
+
+# The rhs condition should never trigger in these cases.
+.x = 1
+_arr = [
+    true || (.foo = true),
+    false && (.bar = true),
+    5 / .x ?? (.baz = true),
+]
+del(.x)
+.

@@ -1,0 +1,8 @@
+# see: https://github.com/vectordotdev/vector/issues/13527
+# result: {"a": "string"}
+
+.a = "string"
+{
+  _x = .a
+  .a = abort
+}
