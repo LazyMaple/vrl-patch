@@ -142,7 +142,7 @@ indexmap = { version = "~2.2.6", default-features = false, features = ["std"], o
 indoc = {version = "2", optional = true }
 itertools = { version = "0.13", default-features = false, optional = true }
 lalrpop-util = { version = "0.20", optional = true }
-mlua = { version = "0.9", default-features = false, features = ["lua54", "send", "vendored"], optional = true}
+mlua = { version = "0.9", default-features = false, features = ["luajit52", "send", "vendored"], optional = true}
 nom = { version = "7", default-features = false, features = ["std"], optional = true }
 once_cell = { version = "1", default-features = false, features = ["std"], optional = true }
 ordered-float = { version = "4", default-features = false, optional = true }
